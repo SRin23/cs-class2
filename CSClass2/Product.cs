@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSClass2
 {
-    internal class Product
+    internal class Product : IComparable<Product>
     {
         public string Name { get; set; }
         public int Price { get; set; }
